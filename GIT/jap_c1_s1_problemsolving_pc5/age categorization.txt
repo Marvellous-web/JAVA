@@ -1,0 +1,28 @@
+Algo
+--------------
+start 
+create var answer
+accept value and store it in answer
+if(answer<13)
+	display "You are child. Please visit child specialist"
+else if(answer>=13 and answer<20)
+	display "You are teenager. Please visit teenager specialist"
+else
+	display "You are adult. Please visit adult specialist"
+
+end
+========================================
+begin
+get answer
+begin if
+	if(answer<13)
+		print "You are child. Please visit child specialist"
+	else if(answer>=13 and answer<20)
+		print "You are teenager. Please visit teenager specialist"
+	else
+		print "You are adult. Please visit adult specialist"
+end if
+end
+============================================
+begin
+

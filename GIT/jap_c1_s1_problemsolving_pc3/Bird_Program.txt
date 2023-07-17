@@ -1,0 +1,75 @@
+Algo
+-----------------------
+start
+1-(for bird)
+a-create var score=0
+b-repeat until(score=500)
+c-next costume
+d-score=score+1
+e-if(touching color="BLUE" or touching color="WHITE")
+	display"GAMEOVER"
+	stop all
+f-when up arrow key pressed
+	glide 1 secs to x (-199) y (18)
+g-when down arrow key pressed
+	glide 1 secs to x (-157) y (-92)
+2-(for buildings)
+a-when flag clicked
+b-repeat until(score=20)
+	glide(3)secs to x(-219) y(-58)
+	go to x(223) y(-59)
+
+3-(for building2)
+a-when flag clicked
+b-repeat until(score=20)
+	glide(5)secs to x(-221) y(-59)
+	go to x(222) y(-58)
+4-(for building3)
+a-when flag clicked
+b-repeat until(score=20)
+	glide(3)secs to x(-217) y(167)
+	go to x(216) y(168)
+5-(for building4)
+a-when flag clicked
+b-repeat until(score=20)
+	glide(5)secs to x(-217) y(167)
+	go to x(216) y(168)
+6-end
+=============================================
+Pseudocode
+-----------
+begin
+1-(for bird)
+a-set var score=0
+b-repeat steps c,d,e until(score=500)
+c-next costume
+d-score=score+1
+e-if(touching color="BLUE" or touching color="WHITE")
+	print"GAMEOVER"
+	stop all
+f-when up arrow key pressed
+	glide 1 secs to x (-199) y (18)
+g-when down arrow key pressed
+	glide 1 secs to x (-157) y (-92)
+2-(for buildings)
+a-when flag clicked
+b-repeat until(score=20)
+	glide(3)secs to x(-219) y(-58)
+	go to x(223) y(-59)
+
+3-(for building2)
+a-when flag clicked
+b-repeat until(score=20)
+	glide(5)secs to x(-221) y(-59)
+	go to x(222) y(-58)
+4-(for building3)
+a-when flag clicked
+b-repeat until(score=20)
+	glide(3)secs to x(-217) y(167)
+	go to x(216) y(168)
+5-(for building4)
+a-when flag clicked
+b-repeat until(score=20)
+	glide(5)secs to x(-217) y(167)
+	go to x(216) y(168)
+6-end

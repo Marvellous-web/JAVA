@@ -1,0 +1,36 @@
+Armstorm Program
+----------------------
+
+1.start
+2.create var num,num1,sum=0,remm
+3.accept value and store it in num
+4.num1=num
+5.repeat 6,7,8,9 till num1==0
+6.remm=num1%100
+7.remm=remm*remm*remm
+8.sum=sum+remm
+9.num1=floor(num1/10)
+10.if(sum==num)
+	display"Armstorm value"
+	else
+	display"Non armstorm value"
+11.end
+==========================================
+Pseudocode
+-----------
+1.begin
+2.int num,num1,remm,sum=0
+3.get num
+4.set num1=num
+5.begin loop while(num1==0)
+	set remm=remm%100
+	set remm=remm*remm*remm
+	set sum=sum+remm
+	set num1=floor(num1/10)
+end loop
+6.begin if(sum==num)
+	print"Armstorm value"
+7.else 
+	print"Non Armstorm value"
+8.end if
+9.end	
