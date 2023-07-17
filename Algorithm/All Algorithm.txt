@@ -1,0 +1,260 @@
+1- Perform division of two numbers
+================================================
+1- Start
+2-Create var n1,n2,div;
+3-accept value for n1 $ n2 and store them in n1 & n2 respectively
+4- div = n1 divide by n2.
+5- display div
+6- end
+=================================================
+
+2- Find SI 
+
+===========================================
+
+1- Start
+2- Create var prin,rate,time,si;
+3- accept value for principal,rate and time and store them in prin, rate & time respectively
+4- si = (prin*rate*time)/100
+5- display si
+6- end
+
+================================================
+
+3 - Area &  Per
+==============================
+1- Start
+2 - Create var l,b,area,par;
+3- accept value for length & breadth and store them in l, b respectively
+4 -area = l * b 
+5- par = 2(l+b)
+6 - display area
+7 - display par
+8- end
+
+===============================
+
+4- Calculate & Display the performance
+Greater than 70 - Green
+50 to 70 - Amber
+below 50 - Red
+
+1.start
+2.create var marks
+3.if(marks<50)
+	display"RED"
+	elseif(marks>=50&&marks<=70)
+	display"Amber"
+	else
+	display"Green"
+4.end
+
+===========================
+5- Number even or odd
+
+1- start
+2- create var num ;
+3 - Accept integer value and store it in num
+4 - if (num%2==0) 
+	display "Even"
+	else
+	display "Odd"
+5- End
+==================
+6- Greatest OF Three Digit
+
+1. start
+2-create var n1,n2,n3
+3- Accept integer values for three and store it in n1,n2,n3 respectively
+4- if(n1>n2) and (n1>n3) 
+		display "n1 is the greatest number"
+	else if (n2>n1) and (n2>n3)
+		display "n2 is the greatest number"
+
+	else
+		display "n3 is the greatest number"
+5- end
+===================
+7- Traffic Signal
+
+1. start
+2. create var signal_color ; 
+3. Accept value in form of string and store it in variable signal_color;
+4. if(signal_color == "red")
+		display "Stop"
+	else if(signal_color == "yellow")
+		display "Wait"
+	else 
+		display "Go";
+5. End.
+===================
+8 Currency Converter
+
+1. Start.
+2. Create var value, currency and Converted_value;
+3. Accept value in form of number and store it in value.
+4. Accept value in form of string and store it in currency.
+5. if(currency == "Dollar")
+		Converted_value = value*77;
+	else
+		Converted_value = value/77;			
+6. Display Converted_value;
+7. END.
+
+
+==========================
+9 Temperatrure
+
+1. START
+2. CREATE var value,temp,fah,kel
+3. Accept value in form of value and store it in value
+4. if(temp==1)
+	fah=9/5*(value-273.15)+32
+	else
+	kel=6/9*(val-32)+273.15
+5. Display temp;
+6. End
+=============================
+10 Calculator
+
+1. START
+2. CREATE VAR NUM1,NUM2,CHOICE
+3. ACCEPT VALUE IN FORM OF NUM1,NUM2 and store it in NUM1,NUM2
+4. PRINT VALUE ENTER CHOICE 1 ADD 2 SUB 3 MUL 4 DIV
+5. IF(CHOICE==1)
+	ADD=NUM1+NUM2
+	Display ADD
+ 	ELSEIF(CHOICE==2)
+	SUB=NUM1-NUM2
+	Display SUB
+	ELSEIF(CHOICE==3)
+	MUL=NUM1*NUM2
+	Display MUL
+	ELSE
+	IF(NUM==0)
+	DISPLAY "DENOMINATOR SHOULD NOT BE ZERO
+	ELSE
+	DIV=NUM1/NUM2
+	Display DIV;
+6. End
+========================
+11
+
+1. START
+2. CREATE VAR num
+3. ACCEPT VALUE IN FORM OF num and store it in num
+4. if(num>=0)
+	DISPLAY "POSIIVE"
+	else
+	DISPLAY "NEGATIVE"
+==================================
+
+	
+12 Display mess-5times
+
+1.start
+2.create var counter=1
+3.repeat step 4 till counter is 5
+4. display "Hello"
+5.Increament counter by 1 counter++/counter=counter+1
+6.end
+
+================
+13 table
+
+1.star
+2.create var num , mul=1
+3. Accept value for num and store it in num
+4 repeat step 5,6,7 till mul<=10
+5. create var prod=num*mul
+6. display prod
+7. increament mul by 1
+=======================
+
+Q-14Display even nuumber between 1-100
+Q-15WAA to display sum of digits from given numbers
+Q-16Factorial
+Q-17Palindrome
+==================================
+
+14 Even till 100
+
+1.start
+2.create var num
+3.accept value for num and store it in num
+4.repeat step 5,6,7 till num will be 100
+5.display num
+6-num=num+2
+7.display num
+8 end
+===============================
+15  Sum of digits 
+
+1.start
+2.create var sum=0,n,m
+3. accept value for n and store it in n
+4. repeat step 5,6 till n less than equals to 0
+5.	m=n%10;
+	sum=sum+n
+	n=n/10
+6. 	display sum
+7. exit
+===================================
+16 Palindrome
+
+1. start
+2. create var val,mul=1
+3. aceept value for val and store it in val
+4. repeat step 5,6 till val less than equals to 1
+5. multiply the mul * val and assign it in mul
+6. subtract 1 from val and assign it in val
+7. Display mul
+8. end
+=========================
+
+Q-17 Neon
+Q-18 ArmStorm
+
+
+17 Neon
+
+1.start
+2.create var num,sq,remm,sum=0
+3. accept value in form of num and store it in num
+4.sq=num*num
+5.repeat step 6,7,8
+6.remm=sq%10
+7.sum+=remm
+8.sq=sq/10
+9.if(sum==num)
+	display "Neon"
+   else
+	display "Not neon"
+10.end
+
+========================================
+18 Armstorm
+
+1.start
+2.create var num,num1,sum=0,remm
+3.accept value and store it in num
+4.num1=num
+5.repeat 6,7,8,9
+6.remm=floor(num1%100)
+7.remm=remm*remm*remm
+8.sum=sum+remm
+9.num1=num1/10
+10.if(sum==num)
+	display"Armstorm value"
+	else
+	display"Non armstorm value"
+11.end
+==================================
+19 Display Time
+
+1.start
+2.create var hrs,minutes,seconds 
+3.accept value and store it in hrs,minutes,seconds respectively
+4.display"Timings="+hrs+" "+minutes+" "+seconds
+5.end
+

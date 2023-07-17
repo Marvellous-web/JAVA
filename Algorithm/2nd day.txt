@@ -1,0 +1,107 @@
+12 Display mess-5times
+
+1.start
+2.create var counter=1
+3.repeat step 4 till counter is 5
+4. display "Hello"
+5.Increament counter by 1 counter++/counter=counter+1
+6.end
+
+================
+13 table
+
+1.star
+2.create var num , mul=1
+3. Accept value for num and store it in num
+4 repeat step 5,6,7 till mul<=10
+5. create var prod=num*mul
+6. display prod
+7. increament mul by 1
+=======================
+
+Q-14Display even nuumber between 1-100
+Q-15WAA to display sum of digits from given numbers
+Q-16Factorial
+Q-17Palindrome
+==================================
+
+14 Even till 100
+
+1.start
+2.create var num
+3.accept value for num and store it in num
+4.repeat step 5,6,7 till num will be 100
+5.display num
+6-num=num+2
+7.display num
+8 end
+===============================
+15  Sum of digits 
+
+1.start
+2.create var sum=0,n,m
+3. accept value for n and store it in n
+4. repeat step 5,6 till n less than equals to 0
+5.	m=n%10;
+	sum=sum+n
+	n=n/10
+6. 	display sum
+7. exit
+===================================
+16 Palindrome
+
+1. start
+2. create var val,mul=1
+3. aceept value for val and store it in val
+4. repeat step 5,6 till val less than equals to 1
+5. multiply the mul * val and assign it in mul
+6. subtract 1 from val and assign it in val
+7. Display mul
+8. end
+=========================
+
+Q-17 Neon
+Q-18 ArmStorm
+
+
+17 Neon
+
+1.start
+2.create var num,sq,remm,sum=0
+3. accept value in form of num and store it in num
+4.sq=num*num
+5.repeat step 6,7,8 till sq==0
+6.remm=sq%10
+7.sum+=remm
+8.sq=sq/10
+9.if(sum==num)
+	display "Neon"
+   else
+	display "Not neon"
+10.end
+
+========================================
+18 Armstorm
+
+1.start
+2.create var num,num1,sum=0,remm
+3.accept value and store it in num
+4.num1=num
+5.repeat 6,7,8,9
+6.remm=floor(num1%100)
+7.remm=remm*remm*remm
+8.sum=sum+remm
+9.num1=num1/10
+10.if(sum==num)
+	display"Armstorm value"
+	else
+	display"Non armstorm value"
+11.end
+==================================
+19 Display Time
+
+1.start
+2.create var hrs,minutes,seconds 
+3.accept value and store it in hrs,minutes,seconds respectively
+4.display"Timings="+hrs+" "+minutes+" "+seconds
+5.end

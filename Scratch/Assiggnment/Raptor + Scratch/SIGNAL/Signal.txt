@@ -1,0 +1,42 @@
+Pseudocode
+-------------------------
+1.begin
+2.get signal
+3.begin if 
+   if signal=RED or signal=YELLOW or signal=GREEN
+      begin if 
+         if signal="RED"
+           Print "Please Stop"
+    	end if
+   		begin if 
+      		if signal="YELLOW"
+         	Print "SLOW DOWN"
+   		end if
+   		begin if 
+       	if signal="GREEN"
+           Print "TO GO
+   		end if
+	else 
+		print "Invalid choice:
+4.end if
+5.end
+========================================
+Alogrithm
+--------------------
+1.start
+2.create var signal
+3.accept value and store it in signal
+4.if(signal=RED or signal=YELLOW or signal=GREEN)
+	if(signal=="RED")
+		display"Please Stop"
+	if(signal=="YELLOW")
+		display"SLOW DOWN"
+	if(signal=="GREEN")
+		display"TO GO"
+5.else
+	display "Invalid choice"
+6.end
+==============================================
+
+		
+		

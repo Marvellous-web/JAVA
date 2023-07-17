@@ -1,0 +1,54 @@
+Errors in C++:
+Abnormal working of an operation.
+1. Syntax Error: Violating the rules for writing C++ syntax.
+Missing paranthesis, Printing variable without declaring it, Missing semi colon problem
+main()
+{
+int x=10;
+int y= 15;
+cout<<""<<(x,y)
+}
+2. runtime error: errors which occur during program execution after successful compilation are called run time errors.
+main()
+{
+int n=9, a=0,c;
+c=n/a;
+cout<<a;
+}
+3. Linker error: When we link different object files with main's object. These are generated when your executable of the program cannot be generated.
+void Main()
+{
+int a=10;
+cout<<a;
+}
+4. Semantic error: when your statements written in the program are not meaningful to the compiler.
+main()
+{
+int a,b,c;
+a+b=c;// semantic error
+}
+5. Logical error: When desired output is not obtained when certain input values are given. Errors which provides incorrect output
+but appears to be error free are called logical error.
+main()
+{
+int i=0;
+for(i=0;i<3;i++); // logical error
+{
+cout<<i;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+Send a message to se-wave-31
+
+
+

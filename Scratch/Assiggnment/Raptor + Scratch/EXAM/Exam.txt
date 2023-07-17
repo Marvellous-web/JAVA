@@ -1,0 +1,31 @@
+Algo
+-----------
+1.start
+2.create var ta,attend,ch
+3.accept value and store it in ta
+4.if(attend>=(0.75*ta)
+	display"Yaay! You are eligible"
+5.else
+	accept string and store it in ch
+	if(ch=="Yes")
+		display"Yay! You are eligible"
+	else
+		display"Sorry!You are not eligible"
+6.end
+========================================
+Pseudocode
+-------------
+1.begin
+2.get ta
+3.get attend
+4.begin if
+	if(attend>=0.75*ta)
+		print"Yay! you are eligible for examination"
+	else
+		get ch
+		if(ch=="Yes")
+			print"Yay! you are eligible for examination"
+		else
+			print"Sorry! you are not eligible for examination"
+5.end if
+6.end

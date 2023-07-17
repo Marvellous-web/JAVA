@@ -1,0 +1,26 @@
+		Algo
+-------------------
+1.start
+2.create var answer
+3.accept value amd store it in answer
+4.if(answer<13)
+	display"You are child,Please visit child specialist"
+5.else if(answer>=13 && answer<20)
+	"You are teenager,Please visit child teenager"
+6.else
+	"You are adult,Please visit adult specialist"
+7.end
+================================
+Pseudocode
+----------------
+1.begin
+2.get answer
+3.begin if
+	if(answer<13)
+		print"You are child,Please visit child specialist""
+	else if(answer>=13 && answer<20)
+		print"You are teenager,Please visit teenager specialist"
+	else
+		print"You are child,Please visit child specialist""You are adult,Please visit adult specialist"	
+4.end if
+5.end
